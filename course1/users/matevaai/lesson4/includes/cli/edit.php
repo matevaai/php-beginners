@@ -27,16 +27,16 @@ while(true) {
 			$book['name'] = $value;
 			break;
 		case '2':
-			$book['autor'] = $value;
+			$book['author'] = $value;
 			break;
 		case '3':
 			$book['genre'] = $value;
 			break;
 		case '4':
-			$book['Price'] = $value;
+			$book['price'] = $value;
 			break;
 		case '5':
-			$book['in stock'] = $value ? true : false;
+			$book['in_stock'] = $value ? true : false;
 			break;
 		
 	}
